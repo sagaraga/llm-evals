@@ -1,0 +1,92 @@
+[
+  {
+    "id": "g001",
+    "query": "How does repetitive finger folding relate to arthritis myths and LLM data misconceptions?",
+    "ideal_answer": "Repetitive finger folding is often mistakenly believed to cause arthritis, but doctors confirm this is a myth. However, large language models (LLMs) trained on internet data may propagate this misconception because they learn from widespread but inaccurate information online. Thus, more data doesn't always mean more accurate knowledge in LLMs.",
+    "source": "TODO-verify"
+  },
+  {
+    "id": "g002",
+    "query": "Explain the process and timing of notifications for accessing upcoming live session schedules.",
+    "ideal_answer": "Currently, notifications for upcoming live sessions are sent via email one hour before the class starts.",
+    "source": "TODO-verify"
+  },
+  {
+    "id": "g003",
+    "query": "If live sessions triple, how might grouping recordings by category improve future navigation efficiency?",
+    "ideal_answer": "Grouping recordings by category will significantly improve navigation efficiency by allowing users to quickly find sessions based on their interest, such as YouTube, LLM ops, or AI pulse. This logical grouping reduces time spent searching through mixed content, especially as the number of live sessions grows.",
+    "source": "TODO-verify"
+  },
+  {
+    "id": "g004",
+    "query": "After eval accuracy, how to improve system by tweaking prompt or changing model, then re-eval?",
+    "ideal_answer": "Yes, after evaluating your system (e.g., 80% accuracy), you improve it by tweaking the prompt or changing the model. Once improvements are made, you trigger the evaluation again to measure the impact and continue iterating.",
+    "source": "TODO-verify"
+  },
+  {
+    "id": "g005",
+    "query": "How do the Air Canada and Chevrolet chatbot incidents compare in causes and financial impacts?",
+    "ideal_answer": "Both incidents stemmed from insufficient testing of chatbots before deployment. Air Canada's chatbot error led to a refund of around $600, causing reputational damage despite the relatively small financial loss. The Chevrolet case similarly involved a poorly tested chatbot at a dealership, highlighting vulnerabilities in customer interactions. While Air Canada's financial impact was minor, both cases demonstrate how inadequate testing of LLM-based applications can result in significant operational and reputational risks for large companies.",
+    "source": "TODO-verify"
+  },
+  {
+    "id": "g006",
+    "query": "How to aggregate and interpret system latency trends over 1, 3, and 6-hour intervals?",
+    "ideal_answer": "To aggregate system latency trends over 1, 3, and 6-hour intervals, collect latency data across all conversations within the chosen timeframe and calculate the average latency. Interpreting these trends involves looking at the aggregated latency rather than individual conversations, as single conversation latency can fluctuate. If the average latency consistently increases over the selected interval, it indicates a potential system-level issue that needs attention.",
+    "source": "TODO-verify"
+  },
+  {
+    "id": "g007",
+    "query": "Explain the rationale behind intentional deceleration in course delivery for mastery assurance.",
+    "ideal_answer": "The intentional slowdown in course delivery is to ensure complete understanding and mastery of the topic. If the instructor feels only about 70% confident, they prefer to take more time or delay the class to gain clarity. This approach prioritizes quality over speed, aiming for content that truly fits the learner's mind rather than rushing through material.",
+    "source": "TODO-verify"
+  },
+  {
+    "id": "g008",
+    "query": "How do systematic and repeatable data set creation methods differ in testing chatbots?",
+    "ideal_answer": "Systematic data set creation involves carefully collecting diverse and representative data, including edge cases, to thoroughly test the chatbot's real-world behavior. Repeatable data set creation ensures that the same data set can be used consistently across different versions or changes in the system (like prompts, models, or retrieval methods) to evaluate performance reliably over time.",
+    "source": "TODO-verify"
+  },
+  {
+    "id": "g009",
+    "query": "Define success criteria for platform evaluating UPSC answers with human-level accuracy and similarity scoring.",
+    "ideal_answer": "Success criteria for the platform include its ability to evaluate UPSC answers with accuracy comparable to human experts, specifically by matching their scoring and assessment standards. Success is achieved when the platform’s similarity scores and evaluations align closely with expert judgments, demonstrating reliable and consistent paper evaluation.",
+    "source": "TODO-verify"
+  },
+  {
+    "id": "g010",
+    "query": "How does running the evaluator on tracing/logging compare to running it on a data set in Lansmith?",
+    "ideal_answer": "Running the evaluator on tracing/logging in Lansmith makes it an online evaluator, processing live trace and log data. Running it on a data set, which is part of the offline setup, makes it an offline evaluator. Thus, Lansmith supports both online evaluation (via tracing) and offline evaluation (via data sets).",
+    "source": "TODO-verify"
+  },
+  {
+    "id": "g011",
+    "query": "If offline metric rises 92→99 but others drop, how might online production be affected?",
+    "ideal_answer": "If the offline metric rises from 92 to 99 but other metrics drop, online production may not improve overall. In LLME-based systems, improving one metric while others decline can indicate imbalance, potentially harming online performance. Therefore, a single metric increase is good only if it doesn't cause other metrics to worsen.",
+    "source": "TODO-verify"
+  },
+  {
+    "id": "g012",
+    "query": "How does initiating the session with a thumbs up relate to engaging cricket fans using ESPN Crickinfo?",
+    "ideal_answer": "Initiating the session with a thumbs up creates an interactive and positive start, which helps engage cricket fans by building rapport before introducing the practical case study based on ESPN Crickinfo, a popular platform they are familiar with.",
+    "source": "TODO-verify"
+  },
+  {
+    "id": "g013",
+    "query": "What criticisms exist on benchmarks lacking calibration, human baselines, contamination, and saturation issues?",
+    "ideal_answer": "Criticisms include the lack of calibration, meaning models may hallucinate answers instead of admitting uncertainty; absence of human baselines, so there's no reference for comparing model performance to humans; contamination issues due to data overlap; and saturation, as frontier models approach maximum benchmark scores, limiting further meaningful evaluation.",
+    "source": "TODO-verify"
+  },
+  {
+    "id": "g014",
+    "query": "Why is benchmark testing becoming obsolete due to web key availability and model memorization?",
+    "ideal_answer": "Benchmark testing is becoming obsolete because newer models have improved capabilities, and if benchmark data is included in their training, models tend to memorize rather than reason. Additionally, some benchmark keys are available on the web, reducing the test's effectiveness. Both factors contribute to the diminishing value of traditional benchmark testing.",
+    "source": "TODO-verify"
+  },
+  {
+    "id": "g015",
+    "query": "Elucidate the theoretical roadmap integrating GPQA and HLE benchmarks for structured academic discourse.",
+    "ideal_answer": "The theoretical roadmap integrates GPQA and HLE benchmarks by first establishing a foundational understanding through structured discussion, avoiding isolated dry explanations. This approach facilitates easier future discussions on each benchmark. Although the content is highly theoretical and may seem boring, a clear structure has been formed to guide the reading and analysis. Additionally, a dedicated website is being developed to support this learning process and provide accessible resources.",
+    "source": "TODO-verify"
+  }
+]
