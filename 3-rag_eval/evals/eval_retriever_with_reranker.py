@@ -57,7 +57,7 @@ evaluate(
     test_cases=test_cases,
     metrics=metrics,
     hyperparameters={
-        "retriever": "reranker",          # vs "reranked" when you swap it in
+        "retriever": "reranker",          # vs "base_k5" when you swap it in
         "embedding_model": "text-embedding-3-small",
         "chunk_size": 1000,
         "chunk_overlap": 150,
